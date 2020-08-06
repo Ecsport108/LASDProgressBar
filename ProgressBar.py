@@ -12,4 +12,3 @@ while lasx_count != las_count:
 	lasx_count = len(fnmatch.filter(os.listdir(workingpath), '*.lasx'))
 	pbar.n = lasx_count
 	pbar.update(0)
-print ("Script Complete.")
